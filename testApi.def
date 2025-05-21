@@ -1,0 +1,22 @@
+; testApi.def : Declares the module parameters for the DLL.
+
+LIBRARY "testApi"
+
+EXPORTS
+; Explicit exports can go here
+
+Initialize
+Uninitialize
+
+CreateRow
+AddString
+AddDate
+AddTime
+AddDateTime
+AddDouble
+AddInteger
+AddInteger64
+AddUInteger64
+InsertRow
+DeleteRow
+ClearTable
